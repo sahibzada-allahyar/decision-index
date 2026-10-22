@@ -1,3 +1,5 @@
+Personal website: [Sahibzada Allahyar](https://sahibzada-allahyar.github.io)
+
 # Decision Index
 
 Reproduction kit for the **Decision Index**, a benchmark for *typed decision engines*: models that take a `state` and a set of typed `questions` (multiple-choice `choice` primitives with explicit `criteria`) and return one answer per question with a full probability distribution over the supplied options. The frozen suite has **132,422 requests** (117,764 source cases, 775,202 answer fields) over **37 benchmarks** spanning knowledge, language, retrieval, tool use and human judgment. Nineteen of them form the scored panel: every benchmark is scored with its native metric, averaged into five equal-weight areas, and the Decision Index is the mean of those five areas on a 0-100 scale (chance-normalized *skill* and *breadth* variants are computed alongside but the headline number is the plain one). Unanswered requests count as wrong, so a model that refuses long or wide inputs pays for it in the score rather than in a footnote.
